@@ -1,0 +1,10 @@
+[Unit]
+Description=lf Fully Decentralized Fully Replicated Key/Value Store
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=lf node-start
+
+[Install]
+WantedBy=multi-user.target

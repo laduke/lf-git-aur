@@ -1,0 +1,7 @@
+.MTREE
+.PKGINFO
+lf/
+pkg/
+src/
+usr/
+*.xz
